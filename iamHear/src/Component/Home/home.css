@@ -1,0 +1,51 @@
+.containerr {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.containerr input {
+  color: #000000;
+  font-size: 1rem;
+}
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+  max-height: 500px;
+  width: fit-content;
+  overflow-y: scroll;
+  background-color: bisque;
+  border-top: 1px solid rgb(0, 0, 0) 404;
+  box-shadow: 5px 5px 5px 5px black;
+}
+table {
+  width: fit-content;
+  border-collapse: collapse;
+  font-family: monospace;
+  font-size: large;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+button {
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
